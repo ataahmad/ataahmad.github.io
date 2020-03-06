@@ -9,12 +9,41 @@
       background-color: lightblue;
     }
     
-    h1 {
+    .divforpics {
+      background-color: darkorange ;
+      padding: 20px;
+    }
+    
+    .projects {
+      background-color: white;
+    }
+    
+    .center {
       text-align: center;
+    }
+    
+    .sectionhead {
+      text-align: center;
+      font-size: 25px;
+      text-decoration: underline;
+    }
+    
+    .subsection {
+      text-align: center;
+      font-size: 20px;
+      text-decoration: underline;
     }
     
     p {
       text-align: center;
+    }
+    
+    .right {
+      float: right;
+    }
+    
+    .left {
+      float: left;
     }
     
   </style>
@@ -25,14 +54,41 @@
 </head>
 <body>
 
-<h1>
-  Ata Ahmad
+<h1 class="center">
+  Ata Ahmad<br/>
+  <img src="Headshot.png" alt="My Old Headshot">
   </h1>
-<p>
-  This is my first webpage that I am using as practice and tutorial for sharpening my HTML and CSS skills. <br/>
+<p class="center">
+  This is my first novice webpage that I am using as practice and tutorial for sharpening my HTML and CSS skills. <br/>
   I will be focusing on mainly creating a project, implementing it, and getting familiar with HTML DOM,<br/>
-  as it is used as a main keypont in the Honey website.
+  as it's used as a main keypont in the Honey website.
   </p>
+
+<div class="divforpics">
+<h1 class="sectionhead">
+ Projects! 
+</h1>
+
+<p>
+This section is a small component of some relevant projects I've worked on recently. 
+</p>
+
+<h2 class="subsection">
+Cosmic Ray Detector!
+</h2>
+<br/>
+<img class="left" src="CRD.png" alt="Detector's Motherboard">
+<img class ="right" src="board.PNG" alt="Signal Amplifier I designed">
+<br/>
+
+<ul>
+<li>To the left is the motherboard for our detector which Dr. Stuart built for us, and to the right is the signal amplifier I designed. As you can see, my soldering skills could use improvement!</li>
+</ul>
+
+
+
+
+</div>
 
 </body>
 </html>
